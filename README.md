@@ -90,7 +90,7 @@ DNMP项目特点：
     ```
 4. 拷贝并命名配置文件（Windows系统请用`copy`命令），启动：
     ```
-    $ cd dnmp                                           # 进入项目目录
+    $ cd dockerLnmp                                     # 进入项目目录
     $ cp env.sample .env                                # 复制环境变量文件
     $ cp docker-compose.sample.yml docker-compose.yml   # 复制 docker-compose 配置文件。默认启动3个服务：
                                                         # Nginx、PHP7和MySQL8。要开启更多其他服务，如Redis、
